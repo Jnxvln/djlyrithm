@@ -1,5 +1,9 @@
 node_modules
 
+# Custom
+*.zip
+*.notes
+
 # Output
 .output
 .vercel
