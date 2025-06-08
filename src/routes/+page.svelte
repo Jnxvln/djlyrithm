@@ -31,7 +31,7 @@
 
 			<br />
 
-			<div class="text-center">
+			<div class="mb-6 text-center">
 				<a
 					href="/music"
 					class="relative mb-4 bg-gradient-to-r from-pink-500 via-yellow-400 to-blue-500 bg-[length:300%_300%] bg-clip-text bg-[position:0%_50%] text-2xl text-transparent transition-all duration-300 ease-in-out hover:animate-rainbow"

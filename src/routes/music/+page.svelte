@@ -1,11 +1,10 @@
 <section>
 	<div class="page-content-container">
 		<header>
-			<h1 class="text-3xl font-bold">Music</h1>
+			<h1 class="text-3xl font-bold text-[#ff915e]">Music</h1>
 		</header>
 
-		<div class="my-4">
-			<br />
+		<div class="mb-6 mt-4">
 			<a
 				href="https://suno.com/@djlyrithm"
 				target="_blank"
@@ -26,7 +25,7 @@
 						href="https://suno.com/s/JyoImJ18qPNZhBcN"
 						target="_blank"
 						rel="noopener noreferrer"
-						class="text-[#f4418f] transition-colors duration-300 ease-in-out hover:text-[#ff915e]"
+						class="text-[#f4418f] transition-colors duration-300 ease-in-out hover:text-[#ffb97b]"
 					>
 						Ashes & Glitter
 					</a>
@@ -37,7 +36,7 @@
 						href="https://suno.com/s/w1YmvKKAtT2B98aR"
 						target="_blank"
 						rel="noopener noreferrer"
-						class="text-[#f4418f] transition-colors duration-300 ease-in-out hover:text-[#ff915e]"
+						class="text-[#f4418f] transition-colors duration-300 ease-in-out hover:text-[#ffb97b]"
 					>
 						Neon Bruises
 					</a>
@@ -47,7 +46,7 @@
 						href="https://suno.com/s/qSVdbVlyfsd6wqjM"
 						target="_blank"
 						rel="noopener noreferrer"
-						class="text-[#f4418f] transition-colors duration-300 ease-in-out hover:text-[#ff915e]"
+						class="text-[#f4418f] transition-colors duration-300 ease-in-out hover:text-[#ffb97b]"
 					>
 						<span class="text-indigo-300">~ </span>
 						Love Beyond The Lines
@@ -55,10 +54,14 @@
 				</div>
 			</ul>
 
-			<h2 class="mt-6 text-2xl font-semibold text-[#9973ff]">Explore Something Else?</h2>
-			<div class="mt-4">I&apos;m generally up to no good. 😈😏</div>
+			<h2 class="mt-12 text-2xl font-semibold text-[#9973ff]">Doesn't Stop There</h2>
+			<div class="mt-2">I&apos;m generally up to no good. 😈😏</div>
 			<div>
-				<a href="/social" class="underline">See what I&apos;m up to</a>
+				<a
+					href="/social"
+					class="underline transition-colors duration-150 ease-in-out hover:text-[#beda90]"
+					>See what I&apos;m up to</a
+				>
 			</div>
 		</div>
 	</div>

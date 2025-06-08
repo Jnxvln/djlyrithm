@@ -4,6 +4,8 @@
 	import { getStores } from '$app/stores';
 	import { derived } from 'svelte/store';
 
+	const starting_year = 2025;
+
 	const { page } = getStores();
 	const current = derived(page, ($page) => $page.url.pathname);
 	let { children } = $props();
@@ -16,13 +18,17 @@
 <!-- <div class="mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8"> -->
 <div class="flex min-h-screen flex-col">
 	<!-- Main content container -->
-	<div class="main-content-container mx-auto w-full max-w-screen-lg flex-1 px-4 sm:px-6 lg:px-8">
+	<div
+		class="main-content-container mx-auto w-full max-w-screen-lg flex-1 px-4 pt-8 sm:px-6 lg:px-8"
+	>
 		<header class="mb-6 px-4 sm:px-6 lg:px-8">
-			<h1
-				class="site-title relative mt-4 inline-block w-full bg-gradient-to-r from-[#c01e64] via-[#ff915e] to-[#280b9b] bg-clip-text text-center text-7xl font-bold text-transparent transition-all duration-300 ease-in-out hover:animate-rainbow"
-			>
-				DJ Lyrithm
-			</h1>
+			<a href="/">
+				<h1
+					class="site-title relative mb-4 bg-gradient-to-r from-pink-500 via-yellow-400 to-blue-500 bg-[length:300%_300%] bg-clip-text bg-[position:0%_50%] text-center text-7xl font-bold text-transparent transition-all duration-300 ease-in-out hover:animate-rainbow"
+				>
+					DJ Lyrithm
+				</h1>
+			</a>
 			<nav class="mt-4">
 				<ul class="flex flex-wrap justify-center gap-4 text-base sm:text-lg md:text-xl">
 					<li>
@@ -77,6 +83,8 @@
 
 	<!-- Footer -->
 	<footer class="site-footer px-4 py-6 text-center text-sm text-gray-500">
-		&copy; 2025-{new Date().getFullYear()} DJ Lyrithm. All rights reserved.
+		&copy; {new Date().getFullYear() === starting_year
+			? ''
+			: `${starting_year}-`}{new Date().getFullYear()} DJ Lyrithm. All rights reserved.
 	</footer>
 </div>
