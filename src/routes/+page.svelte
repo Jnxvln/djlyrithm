@@ -5,7 +5,7 @@
 			<img
 				src="/images/djlyrithm_upscaled.webp"
 				alt="DJ Lyrithm"
-				class="mx-auto h-auto max-w-full rounded-lg shadow-lg"
+				class="mx-auto h-auto max-w-full rounded-3xl shadow-lg"
 				title="DJ Lyrithm"
 				width="420"
 				height="420"

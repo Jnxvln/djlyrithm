@@ -16,7 +16,7 @@
 <!-- <div class="mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8"> -->
 <div class="flex min-h-screen flex-col">
 	<!-- Main content container -->
-	<div class="mx-auto w-full max-w-screen-lg flex-1 px-4 sm:px-6 lg:px-8">
+	<div class="main-content-container mx-auto w-full max-w-screen-lg flex-1 px-4 sm:px-6 lg:px-8">
 		<header class="mb-6 px-4 sm:px-6 lg:px-8">
 			<h1
 				class="site-title relative mt-4 inline-block w-full bg-gradient-to-r from-[#c01e64] via-[#ff915e] to-[#280b9b] bg-clip-text text-center text-7xl font-bold text-transparent transition-all duration-300 ease-in-out hover:animate-rainbow"
@@ -76,7 +76,7 @@
 	</div>
 
 	<!-- Footer -->
-	<footer class="mt-12 px-4 py-6 text-center text-sm text-gray-500">
+	<footer class="site-footer px-4 py-6 text-center text-sm text-gray-500">
 		&copy; 2025-{new Date().getFullYear()} DJ Lyrithm. All rights reserved.
 	</footer>
 </div>

@@ -10,12 +10,32 @@ html,
 body {
 	/* background-color: rgb(14, 8, 8); */
 	background-color: black;
+	/* background-image: url('/images/djlyrithm_bkg.png'); */
+	background-image: url('/images/djlyrithm_bkg_cyberpunk.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: rgb(250, 247, 245);
 	font-size: 1.2rem;
 }
 
+.main-content-container {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
 .page-content-container {
 	padding: 0.75em;
+}
+
+.site-footer {
+	background-color: black;
+	width: 100%;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	padding: 4pt;
+	justify-content: center;
 }
 
 /* src/routes/+layout.svelte Styles */
