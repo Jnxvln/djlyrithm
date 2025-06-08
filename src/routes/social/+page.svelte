@@ -1,9 +1,8 @@
 <section>
-	<header>
-		<h1 class="mb-4 text-3xl font-bold">Social</h1>
-	</header>
-
-	<div>
+	<div class="page-content-container">
+		<header>
+			<h1 class="mb-4 text-3xl font-bold">Social</h1>
+		</header>
 		<div class="mb-4">
 			I&apos;m a beautifully chaotic person. Sometimes I'm writing. Sometimes I'm streaming a game.<br
 			/>Or posting photos and stories. Or doing nothing 😏

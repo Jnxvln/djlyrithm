@@ -1,7 +1,6 @@
 <section>
-	<h1 class="mb-4 text-3xl font-bold">About</h1>
-
-	<div class="">
+	<div class="page-content-container">
+		<h1 class="mb-4 text-3xl font-bold">About</h1>
 		<p class="mb-4">
 			DJ Lyrithm is more than just a name — it's a mark. It carries my voice, my scars, and the
 			things I never thought I'd say out loud. It&apos;s how I process the pain, find the beauty in
