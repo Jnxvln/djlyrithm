@@ -1,6 +1,6 @@
 <section class="page-content-container py-8">
 	<header class="mb-8">
-		<h1 class="text-4xl font-bold text-[#beda90] sm:text-5xl">Social</h1>
+		<h1 class="text-3xl font-bold text-[#beda90] sm:text-4xl">Social</h1>
 		<p class="mt-4 max-w-2xl text-base leading-relaxed text-white sm:text-lg">
 			I&apos;m a beautifully chaotic person. Sometimes I&apos;m writing. Sometimes I&apos;m
 			streaming a game. Or posting photos and stories. Or doing nothing 😏
@@ -52,29 +52,6 @@
 				<li>
 					<a href="/social" target="_blank" class="text-rose-300 hover:text-rose-400">Twitch</a> —
 					<span>Watch live streams and music premieres.</span>
-				</li>
-			</ul>
-		</div>
-
-		<!-- Fun & Mischief -->
-		<div class="rounded-lg border border-[#9973ff]/30 bg-black/30 p-6 shadow-md shadow-[#9973ff22]">
-			<h3 class="mb-2 text-xl font-semibold text-[#9973ff]">😈 Fun & Mischief</h3>
-			<ul class="list-disc space-y-2 pl-5 text-base text-gray-200">
-				<li>
-					<a href="/social" target="_blank" class="text-rose-300 hover:text-rose-400">Snapchat</a> —
-					<span>Behind-the-scenes randomness.</span>
-				</li>
-			</ul>
-		</div>
-
-		<!-- Inspiration & Creative Ideas -->
-		<div class="rounded-lg border border-[#9973ff]/30 bg-black/30 p-6 shadow-md shadow-[#9973ff22]">
-			<h3 class="mb-2 text-xl font-semibold text-[#9973ff]">✨ Inspiration</h3>
-			<ul class="list-disc pl-5 text-base text-gray-200">
-				<li>
-					<a href="/social" target="_blank" class="text-rose-300 hover:text-rose-400">Pinterest</a>
-					—
-					<span>Where my ideas and moods live.</span>
 				</li>
 			</ul>
 		</div>

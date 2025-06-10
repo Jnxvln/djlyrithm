@@ -22,7 +22,7 @@
 <section>
 	<div class="page-content-container">
 		<header>
-			<h1 class="mb-8 text-left text-4xl font-bold text-[#ff915e] sm:text-5xl">Music</h1>
+			<h1 class="mb-8 text-left text-3xl font-bold text-[#ff915e] sm:text-4xl">Music</h1>
 		</header>
 
 		<div class="my-8 flex justify-center">
@@ -62,12 +62,12 @@
 			<section
 				class="mt-16 rounded-xl border border-pink-500/30 bg-black/40 px-6 py-8 text-center backdrop-blur-sm transition hover:border-pink-400/60 hover:shadow-[0_0_20px_#ff48a1]"
 			>
-				<h2 class="text-xl font-semibold text-pink-400">Doesn’t stop there.</h2>
-				<p class="mt-2 text-sm text-gray-300">I’m generally up to no good. 😈😏</p>
+				<h2 class="text-xl font-semibold text-pink-400">Doesn&apos;t stop there.</h2>
+				<p class="mt-2 text-sm text-gray-300">I&apos;m generally up to no good. 😈😏</p>
 				<a
 					href="/social"
 					class="mt-4 inline-block rounded-full border border-pink-400/50 px-4 py-2 text-sm font-semibold text-pink-300 transition hover:border-pink-500 hover:text-pink-200"
-					>See what I’m up to</a
+					>See what I&apos;m up to</a
 				>
 			</section>
 		</div>
