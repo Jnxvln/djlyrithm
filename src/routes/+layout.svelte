@@ -1,10 +1,13 @@
 <script lang="ts">
 	import '../app.css';
 
+	import { onMount } from 'svelte';
 	import { getStores } from '$app/stores';
-	import { derived } from 'svelte/store';
+	import { derived, writable } from 'svelte/store';
 
 	const starting_year = 2025;
+
+	const showButton = writable(false);
 
 	const { page } = getStores();
 	const current = derived(page, ($page) => $page.url.pathname);
@@ -13,6 +16,18 @@
 	function linkClass(path: string, color: string) {
 		return `${color} ${$current === path ? 'underline font-bold' : ''}`;
 	}
+
+	function scrollToTop() {
+		window.scrollTo({ top: 0, behavior: 'smooth' });
+	}
+
+	onMount(() => {
+		const onScroll = () => {
+			showButton.set(window.scrollY > 200);
+		};
+		window.addEventListener('scroll', onScroll);
+		return () => window.removeEventListener('scroll', onScroll);
+	});
 </script>
 
 <!-- <div class="mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8"> -->
@@ -81,10 +96,20 @@
 		{@render children()}
 	</div>
 
-	<!-- Footer -->
-	<footer class="site-footer px-4 py-6 text-center text-sm text-gray-500">
+	<footer
+		class="mx-auto flex w-full max-w-screen-lg justify-center bg-black p-4 py-6 text-center text-xs text-gray-500 opacity-50 transition hover:opacity-80"
+	>
 		&copy; {new Date().getFullYear() === starting_year
 			? ''
 			: `${starting_year}-`}{new Date().getFullYear()} DJ Lyrithm. All rights reserved.
 	</footer>
+
+	{#if $showButton}
+		<button
+			onclick={scrollToTop}
+			class="fixed bottom-6 right-6 z-50 rounded-full border border-pink-500/40 bg-black/60 px-4 py-2 text-sm font-semibold text-pink-300 backdrop-blur-sm transition hover:border-pink-400 hover:text-pink-100 md:hidden"
+		>
+			↑ Top
+		</button>
+	{/if}
 </div>

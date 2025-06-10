@@ -1,67 +1,84 @@
-<section>
-	<div class="page-content-container">
-		<header>
-			<h1 class="mb-4 text-3xl font-bold text-[#beda90]">Social</h1>
-		</header>
-		<div class="mb-4">
-			I&apos;m a beautifully chaotic person. Sometimes I'm writing. Sometimes I'm streaming a game.<br
-			/>Or posting photos and stories. Or doing nothing 😏
-			<span class="text-sm">(judgment free zone, remems?)</span>.
+<section class="page-content-container py-8">
+	<header class="mb-8">
+		<h1 class="text-4xl font-bold text-[#beda90] sm:text-5xl">Social</h1>
+		<p class="mt-4 max-w-2xl text-base leading-relaxed text-white sm:text-lg">
+			I&apos;m a beautifully chaotic person. Sometimes I&apos;m writing. Sometimes I&apos;m
+			streaming a game. Or posting photos and stories. Or doing nothing 😏
+			<span class="block text-sm italic text-gray-400">(judgment free zone, remems?)</span>
+		</p>
+	</header>
+
+	<h2
+		class="mb-6 text-2xl font-semibold text-[#ff915e] underline decoration-[#ff915e]/50 underline-offset-4"
+	>
+		What would you like to see?
+	</h2>
+
+	<div class="grid gap-8 md:grid-cols-2">
+		<!-- Music -->
+		<div class="rounded-lg border border-[#9973ff]/30 bg-black/30 p-6 shadow-md shadow-[#9973ff22]">
+			<h3 class="mb-2 text-xl font-semibold text-[#9973ff]">🎵 Music</h3>
+			<ul class="list-disc pl-5 text-base text-gray-200">
+				<li>
+					<a href="/social" class="text-rose-300 transition-colors duration-150 hover:text-rose-400"
+						>Suno</a
+					>
+					—
+					<span>Explore my latest tracks and mixes.</span>
+				</li>
+			</ul>
 		</div>
 
-		<h1 class="mt-6 text-3xl font-semibold text-[#ff915e]">What would you like to see?</h1>
-
-		<!-- Music -->
-		<h2 class="mt-6 text-2xl font-semibold text-[#9973ff]">Music</h2>
-		<ul class="list-disc pl-6">
-			<li>
-				<a href="/social" class="text-rose-300 hover:underline">Suno</a> -
-				<span class="">Explore my latest tracks and mixes.</span>
-			</li>
-		</ul>
-
 		<!-- Photos and Stories -->
-		<h2 class="mt-6 text-2xl font-semibold text-[#9973ff]">Photos & Stories</h2>
-		<ul class="list-disc pl-6">
-			<li>
-				<a href="/social" class="text-rose-300 hover:underline">Instagram</a> -
-				<span class="">Check out my latest photos and stories.</span>
-			</li>
-		</ul>
+		<div class="rounded-lg border border-[#9973ff]/30 bg-black/30 p-6 shadow-md shadow-[#9973ff22]">
+			<h3 class="mb-2 text-xl font-semibold text-[#9973ff]">📷 Photos & Stories</h3>
+			<ul class="list-disc pl-5 text-base text-gray-200">
+				<li>
+					<a href="/social" class="text-rose-300 hover:text-rose-400">Instagram</a> —
+					<span>Check out my latest photos and stories.</span>
+				</li>
+			</ul>
+		</div>
 
 		<!-- Gaymes & Livestreams -->
-		<h2 class="mt-6 text-2xl font-semibold text-[#9973ff]">Gaymes & Livestreams</h2>
-		<ul class="list-disc pl-6">
-			<li>
-				<a href="/social" class="text-rose-300 hover:underline">Discord</a> -
-				<span class="">Join my server to chat with fans, livestream gaymes, and more.</span>
-			</li>
-			<li>
-				<a href="/social" class="text-rose-300 hover:underline">Twitch</a> -
-				<span class="">Watch my music videos and live streams.</span>
-			</li>
-		</ul>
+		<div class="rounded-lg border border-[#9973ff]/30 bg-black/30 p-6 shadow-md shadow-[#9973ff22]">
+			<h3 class="mb-2 text-xl font-semibold text-[#9973ff]">🎮 Gaymes & Livestreams</h3>
+			<ul class="list-disc space-y-2 pl-5 text-base text-gray-200">
+				<li>
+					<a href="/social" class="text-rose-300 hover:text-rose-400">Discord</a> —
+					<span>Join my server to chat, stream, and connect.</span>
+				</li>
+				<li>
+					<a href="/social" class="text-rose-300 hover:text-rose-400">Twitch</a> —
+					<span>Watch live streams and music premieres.</span>
+				</li>
+			</ul>
+		</div>
 
 		<!-- Fun & Mischief -->
-		<h2 class="mt-6 text-2xl font-semibold text-[#9973ff]">Fun and Mischief</h2>
-		<ul class="list-disc pl-6">
-			<li>
-				<a href="/social" class="text-rose-300 hover:underline">TikTok</a> -
-				<span class="">Catch my short music clips and fun content.</span>
-			</li>
-			<li>
-				<a href="/social" class="text-rose-300 hover:underline">Snapchat</a> -
-				<span class="">Follow my adventures and behind-the-scenes moments.</span>
-			</li>
-		</ul>
+		<div class="rounded-lg border border-[#9973ff]/30 bg-black/30 p-6 shadow-md shadow-[#9973ff22]">
+			<h3 class="mb-2 text-xl font-semibold text-[#9973ff]">😈 Fun & Mischief</h3>
+			<ul class="list-disc space-y-2 pl-5 text-base text-gray-200">
+				<li>
+					<a href="/social" class="text-rose-300 hover:text-rose-400">TikTok</a> —
+					<span>Short music clips & fun chaos.</span>
+				</li>
+				<li>
+					<a href="/social" class="text-rose-300 hover:text-rose-400">Snapchat</a> —
+					<span>Behind-the-scenes randomness.</span>
+				</li>
+			</ul>
+		</div>
 
 		<!-- Inspiration & Creative Ideas -->
-		<h2 class="mt-6 text-2xl font-semibold text-[#9973ff]">Inspiration & Creative Ideas</h2>
-		<ul class="list-disc pl-6">
-			<li>
-				<a href="/social" class="text-rose-300 hover:underline">Pinterest</a> -
-				<span class="">Discover my inspirations and creative ideas.</span>
-			</li>
-		</ul>
+		<div class="rounded-lg border border-[#9973ff]/30 bg-black/30 p-6 shadow-md shadow-[#9973ff22]">
+			<h3 class="mb-2 text-xl font-semibold text-[#9973ff]">✨ Inspiration</h3>
+			<ul class="list-disc pl-5 text-base text-gray-200">
+				<li>
+					<a href="/social" class="text-rose-300 hover:text-rose-400">Pinterest</a> —
+					<span>Where my ideas and moods live.</span>
+				</li>
+			</ul>
+		</div>
 	</div>
 </section>
