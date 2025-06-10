@@ -1,6 +1,6 @@
 <section class="page-content-container py-8">
 	<!-- Move heading above the flex container -->
-	<h1 class="mb-8 text-center text-4xl font-bold text-[#ff48a1] sm:text-5xl">About</h1>
+	<h1 class="mb-8 text-left text-4xl font-bold text-[#ff48a1] sm:text-5xl">About</h1>
 
 	<div class="flex flex-col-reverse items-center justify-between gap-8 md:flex-row">
 		<!-- Textual Content -->

@@ -22,7 +22,7 @@
 <section>
 	<div class="page-content-container">
 		<header>
-			<h1 class="text-3xl font-bold text-[#ff915e]">Music</h1>
+			<h1 class="mb-8 text-left text-4xl font-bold text-[#ff915e] sm:text-5xl">Music</h1>
 		</header>
 
 		<div class="my-8 flex justify-center">

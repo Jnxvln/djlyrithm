@@ -39,7 +39,7 @@
 		<header class="mb-6 px-4 sm:px-6 lg:px-8">
 			<a href="/">
 				<h1
-					class="site-title relative mb-4 bg-gradient-to-r from-pink-500 via-yellow-400 to-blue-500 bg-[length:300%_300%] bg-clip-text bg-[position:0%_50%] text-center text-7xl font-bold text-transparent transition-all duration-300 ease-in-out hover:animate-rainbow"
+					class="site-title relative mb-4 animate-rainbow bg-gradient-to-r from-pink-500 via-yellow-400 to-blue-500 bg-[length:300%_300%] bg-clip-text bg-[position:0%_50%] text-center text-7xl font-bold text-transparent transition-all duration-300 ease-in-out"
 				>
 					DJ Lyrithm
 				</h1>
