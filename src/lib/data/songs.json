@@ -1,35 +1,11 @@
 [
 	{
-		"id": 1,
-		"title": "Neon Bruises",
+		"id": 0,
+		"title": "Red Hollow",
 		"duration": "03:19",
-		"image": "https://cdn2.suno.ai/image_large_bc86fc89-7382-4cfc-b871-cb9ef5fe6157.jpeg",
-		"tags": ["alt pop", "dark pop", "emo pop", "male vocal", "nu metal influencer"],
-		"link": "https://suno.com/song/bc86fc89-7382-4cfc-b871-cb9ef5fe6157",
-		"datePublished": "2025-06-06T00:16:00.000Z"
-	},
-	{
-		"id": 2,
-		"title": "Ashes & Glitter",
-		"duration": "03:24",
-		"image": "https://cdn2.suno.ai/image_large_6df5bdad-b0af-4c69-a753-cec1ed4153a3.jpeg",
-		"tags": [
-			"dark pop",
-			"cinematic alt pop",
-			"emotional ballad",
-			"nu metal influencer",
-			"male vocal"
-		],
-		"link": "https://suno.com/song/6df5bdad-b0af-4c69-a753-cec1ed4153a3",
-		"datePublished": "2025-06-07T14:44:00.000Z"
-	},
-	{
-		"id": 3,
-		"title": "Love Yourself",
-		"duration": "02:50",
-		"image": "https://cdn2.suno.ai/image_large_6fcaf833-d2dd-4bdf-97fa-13102b747923.jpeg",
-		"tags": ["electronic", "edm", "dance", "pride"],
-		"link": "https://suno.com/song/6fcaf833-d2dd-4bdf-97fa-13102b747923",
-		"datePublished": "2025-06-09T09:31:00.000Z"
+		"image": "/images/djlyrithm_redhollow.jpeg",
+		"tags": ["horrorcore", "goth", "nu metal"],
+		"link": "https://suno.com/song/447ddfd2-d884-45a1-adb1-b6aa2fc90808",
+		"datePublished": "2025-06-16T00:15:42.000Z"
 	}
 ]
