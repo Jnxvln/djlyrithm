@@ -9,8 +9,16 @@ module.exports = {
 	],
 	theme: {
 		extend: {
+			fontFamily: {
+				horror: ['Metal Mania', 'cursive', 'sans-serif'],
+				creepyHandwriting: ['Caveat Brush', 'cursive', 'sans-serif']
+			},
 			backgroundSize: {
 				300: '300% 300%'
+			},
+			colors: {
+				bloodred: '#45120a',
+				rusticred: '#9e2b19'
 			},
 			keyframes: {
 				rainbow: {

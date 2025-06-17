@@ -44,7 +44,7 @@
 				<select
 					id="sort"
 					bind:value={sortOrder}
-					class="rounded-md border border-indigo-400 bg-indigo-900 px-3 py-1 text-sm text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+					class="rounded-md border border-[#dd5534] bg-[#45120a] px-3 py-1 text-sm text-white focus:outline-none focus:ring-2 focus:ring-[#dd5534]"
 				>
 					<option value="newest">Newest</option>
 					<option value="oldest">Oldest</option>
@@ -60,13 +60,13 @@
 
 			<!-- Link to Social page -->
 			<section
-				class="mt-16 rounded-xl border border-pink-500/30 bg-black/40 px-6 py-8 text-center backdrop-blur-sm transition hover:border-pink-400/60 hover:shadow-[0_0_20px_#ff48a1]"
+				class="border-bloodred hover:border-rusticred mt-16 rounded-xl border bg-black/40 px-6 py-8 text-center backdrop-blur-sm transition hover:shadow-[0_0_20px_#ff3c25]"
 			>
-				<h2 class="text-xl font-semibold text-pink-400">Doesn&apos;t stop there.</h2>
+				<h2 class="text-xl font-semibold text-[#dd5534]">Doesn&apos;t stop there.</h2>
 				<p class="mt-2 text-sm text-gray-300">I&apos;m generally up to no good. 😈😏</p>
 				<a
 					href="/social"
-					class="mt-4 inline-block rounded-full border border-pink-400/50 px-4 py-2 text-sm font-semibold text-pink-300 transition hover:border-pink-500 hover:text-pink-200"
+					class="mt-4 inline-block rounded-full border border-[#ff3c25] px-4 py-2 text-sm font-semibold text-[#ffb39c] transition hover:border-[#ff3c25] hover:text-[#ffe1d6]"
 					>See what I&apos;m up to</a
 				>
 			</section>

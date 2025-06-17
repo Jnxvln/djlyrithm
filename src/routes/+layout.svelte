@@ -34,24 +34,26 @@
 <div class="flex min-h-screen flex-col">
 	<!-- Main content container -->
 	<div
-		class="main-content-container mx-auto w-full max-w-screen-lg flex-1 px-4 pt-8 sm:px-6 lg:px-8"
+		class="main-content-container mx-auto w-full max-w-screen-xl flex-1 px-4 pt-8 sm:px-6 lg:px-8"
 	>
 		<header class="mb-6 px-4 sm:px-6 lg:px-8">
 			<a href="/">
 				<h1
-					class="site-title relative mb-4 animate-rainbow bg-gradient-to-r from-pink-500 via-yellow-400 to-blue-500 bg-[length:300%_300%] bg-clip-text bg-[position:0%_50%] text-center text-7xl font-bold text-transparent transition-all duration-300 ease-in-out"
+					class="font-horror site-title relative mb-4 animate-rainbow bg-gradient-to-r from-[#6f180a] via-[#44522a] to-[#cf721b] bg-[length:300%_300%] bg-clip-text bg-[position:0%_50%] text-center text-7xl font-bold text-transparent transition-all duration-300 ease-in-out"
 				>
 					DJ Lyrithm
 				</h1>
 			</a>
 			<nav class="mt-4">
-				<ul class="flex flex-wrap justify-center gap-4 text-base sm:text-lg md:text-xl">
+				<ul
+					class="flex flex-wrap justify-center gap-4 font-creepyHandwriting text-base sm:text-lg md:text-3xl"
+				>
 					<li>
 						<a
 							href="/"
 							class={linkClass(
 								'/',
-								'text-[#af93fd] transition-colors duration-150 ease-in-out hover:text-[#8d63ff]'
+								'text-[#c44525] transition-colors duration-150 ease-in-out hover:text-[#e08a68]'
 							)}>Home</a
 						>
 					</li>
@@ -60,7 +62,7 @@
 							href="/about"
 							class={linkClass(
 								'/about',
-								'text-[#ff48a1] transition-colors duration-150 ease-in-out hover:text-[#ff9cbf]'
+								'text-[#c44525] transition-colors duration-150 ease-in-out hover:text-[#e08a68]'
 							)}>About</a
 						>
 					</li>
@@ -69,7 +71,7 @@
 							href="/music"
 							class={linkClass(
 								'/music',
-								'text-[#ff915e] transition-colors duration-150 ease-in-out hover:text-[#ffb27e]'
+								'text-[#c44525] transition-colors duration-150 ease-in-out hover:text-[#e08a68]'
 							)}
 						>
 							Music
@@ -80,7 +82,7 @@
 							href="/social"
 							class={linkClass(
 								'/social',
-								'text-[#beda90] transition-colors duration-150 ease-in-out hover:text-[#f3ffc4]'
+								'text-[#c44525] transition-colors duration-150 ease-in-out hover:text-[#e08a68]'
 							)}>Social</a
 						>
 					</li>
@@ -97,7 +99,7 @@
 	</div>
 
 	<footer
-		class="mx-auto flex w-full max-w-screen-lg justify-center bg-black p-4 py-6 text-center text-xs text-gray-500 opacity-50 transition hover:opacity-80"
+		class="mx-auto flex w-full max-w-screen-xl justify-center bg-black p-4 py-6 text-center text-xs text-gray-500 opacity-75 transition hover:opacity-85"
 	>
 		&copy; {new Date().getFullYear() === starting_year
 			? ''
