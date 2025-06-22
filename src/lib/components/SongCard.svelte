@@ -14,18 +14,16 @@
 			alt={`Image for the song "${song.title}"`}
 		/>
 
-		<div class="mt-4 text-xl font-semibold text-white">{song.title}</div>
-		<div class="text-sm text-indigo-300">Duration: {song.duration}</div>
-		<div class="text-sm text-gray-500">
+		<div class="mt-4 text-xl font-semibold text-[#ec7d3d]">{song.title}</div>
+		<div class="text-sm text-[#909e4c]">Duration: {song.duration}</div>
+		<div class="text-sm text-neutral-400">
 			Published: {new Date(song.datePublished).toLocaleDateString()}
 		</div>
 
 		<!-- Tags -->
 		<div class="mt-3 flex flex-wrap gap-2">
 			{#each song.tags as tag (tag)}
-				<span
-					class="rounded-full bg-indigo-800/40 px-3 py-1 text-xs text-indigo-100 backdrop-blur-sm"
-				>
+				<span class="rounded-full bg-[#52241c] px-3 py-1 text-xs text-gray-300 backdrop-blur-sm">
 					{tag}
 				</span>
 			{/each}

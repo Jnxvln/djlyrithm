@@ -22,14 +22,18 @@
 <section>
 	<div class="page-content-container">
 		<header>
-			<h1 class="mb-8 text-left text-3xl font-bold text-[#ff915e] sm:text-4xl">Music</h1>
+			<h1
+				class="mb-8 text-left text-4xl font-bold font-creepyHandwriting text-[#f8514b] sm:text-5xl"
+			>
+				Music
+			</h1>
 		</header>
 
 		<div class="my-8 flex justify-center">
 			<a
 				href="https://suno.com/@djlyrithm"
 				target="_blank"
-				class="music-findme relative inline-block animate-rainbow bg-gradient-to-r from-[#c01e64] via-[#ff915e] to-[#280b9b] bg-[length:300%_300%] bg-clip-text bg-[position:0%_50%] text-3xl font-bold text-transparent transition-all duration-300 ease-in-out"
+				class="font-creepyHandwriting text-2xl relative inline-block bg-gradient-to-r from-[#f9d639] via-[#cf090f] to-[#5faa3c] bg-[length:300%_300%] bg-clip-text bg-[position:0%_50%] text-transparent transition-all duration-300 ease-in-out hover:animate-rainbow"
 				rel="noopener noreferrer"
 				aria-label="DJ Lyrithm on Suno"
 			>

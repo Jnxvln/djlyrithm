@@ -11,6 +11,7 @@ module.exports = {
 		extend: {
 			fontFamily: {
 				horror: ['Metal Mania', 'cursive', 'sans-serif'],
+				creepyWriting: ['Winky Rough', 'system-ui'],
 				creepyHandwriting: ['Caveat Brush', 'cursive', 'sans-serif']
 			},
 			backgroundSize: {

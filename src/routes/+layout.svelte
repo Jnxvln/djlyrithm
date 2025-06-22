@@ -39,21 +39,21 @@
 		<header class="mb-6 px-4 sm:px-6 lg:px-8">
 			<a href="/">
 				<h1
-					class="font-horror site-title relative mb-4 animate-rainbow bg-gradient-to-r from-[#6f180a] via-[#44522a] to-[#cf721b] bg-[length:300%_300%] bg-clip-text bg-[position:0%_50%] text-center text-7xl font-bold text-transparent transition-all duration-300 ease-in-out"
+					class="font-horror site-title relative mb-4 animate-rainbow bg-gradient-to-r from-[#d6422c] via-[#44522a] to-[#cf721b] bg-[length:300%_300%] bg-clip-text bg-[position:0%_50%] text-center text-7xl font-bold text-transparent transition-all duration-300 ease-in-out"
 				>
 					DJ Lyrithm
 				</h1>
 			</a>
 			<nav class="mt-4">
 				<ul
-					class="flex flex-wrap justify-center gap-4 font-creepyHandwriting text-base sm:text-lg md:text-3xl"
+					class="flex flex-wrap justify-center gap-4 font-creepyHandwriting text-lg sm:text-2xl md:text-3xl"
 				>
 					<li>
 						<a
 							href="/"
 							class={linkClass(
 								'/',
-								'text-[#c44525] transition-colors duration-150 ease-in-out hover:text-[#e08a68]'
+								'text-[#eb3535] transition-colors duration-150 ease-in-out hover:text-[#facb67]'
 							)}>Home</a
 						>
 					</li>
@@ -62,7 +62,7 @@
 							href="/about"
 							class={linkClass(
 								'/about',
-								'text-[#c44525] transition-colors duration-150 ease-in-out hover:text-[#e08a68]'
+								'text-[#eb3535] transition-colors duration-150 ease-in-out hover:text-[#facb67]'
 							)}>About</a
 						>
 					</li>
@@ -71,7 +71,7 @@
 							href="/music"
 							class={linkClass(
 								'/music',
-								'text-[#c44525] transition-colors duration-150 ease-in-out hover:text-[#e08a68]'
+								'text-[#eb3535] transition-colors duration-150 ease-in-out hover:text-[#facb67]'
 							)}
 						>
 							Music
@@ -82,7 +82,7 @@
 							href="/social"
 							class={linkClass(
 								'/social',
-								'text-[#c44525] transition-colors duration-150 ease-in-out hover:text-[#e08a68]'
+								'text-[#eb3535] transition-colors duration-150 ease-in-out hover:text-[#facb67]'
 							)}>Social</a
 						>
 					</li>
