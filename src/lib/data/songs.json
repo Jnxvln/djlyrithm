@@ -6,7 +6,7 @@
 		"image": "/images/djlyrithm_redhollow.jpeg",
 		"tags": ["horrorcore", "goth", "nu metal"],
 		"link": "https://suno.com/song/447ddfd2-d884-45a1-adb1-b6aa2fc90808",
-		"datePublished": "2025-06-16T00:15:42.000Z"
+		"datePublished": "2025-06-16T00:15:23.000Z"
 	},
 	{
 		"id": 1,
@@ -26,6 +26,26 @@
 			"grindhouse"
 		],
 		"link": "https://suno.com/song/f5cda8ba-1c22-4d5f-9cf8-be3bb1492571",
-		"datePublished": "2025-06-16T00:15:23.000Z"
+		"datePublished": "2025-06-16T00:15:42.000Z"
+	},
+	{
+		"id": 2,
+		"title": "Lil Belle",
+		"duration": "02:19",
+		"image": "/images/djlyrithm_lilbelle.jpeg",
+		"tags": [
+			"dark",
+			"cinematic",
+			"horrorcore",
+			"rock",
+			"gothic",
+			"nu metal",
+			"sinister",
+			"gritty",
+			"theatrical",
+			"grindhouse"
+		],
+		"link": "https://suno.com/song/f5cda8ba-1c22-4d5f-9cf8-be3bb1492571",
+		"datePublished": "2025-06-25T00:14:28.000Z"
 	}
 ]
