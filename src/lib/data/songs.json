@@ -30,6 +30,46 @@
 	},
 	{
 		"id": 2,
+		"title": "Bro Cleaver",
+		"duration": "02:38",
+		"image": "/images/djlyrithm_thumbnail_song_bro-cleaver.jpeg",
+		"tags": [
+			"dark",
+			"cinematic",
+			"horrorcore",
+			"rock",
+			"gothic",
+			"nu metal",
+			"sinister",
+			"gritty",
+			"theatrical",
+			"grindhouse"
+		],
+		"link": "https://suno.com/song/f7780bec-c196-4c9a-829f-277d59ea7a2f",
+		"datePublished": "2025-06-25T00:14:39.000Z"
+	},
+	{
+		"id": 3,
+		"title": "Ma Cleaver",
+		"duration": "02:38",
+		"image": "/images/djlyrithm_thumbnail_song_ma-cleaver.jpeg",
+		"tags": [
+			"dark",
+			"cinematic",
+			"horrorcore",
+			"rock",
+			"gothic",
+			"nu metal",
+			"sinister",
+			"gritty",
+			"theatrical",
+			"grindhouse"
+		],
+		"link": "https://suno.com/song/c1c190d9-5b47-4906-a291-8e36ea8fe602",
+		"datePublished": "2025-06-25T00:15:16.000Z"
+	},
+	{
+		"id": 4,
 		"title": "Lil Belle",
 		"duration": "02:19",
 		"image": "/images/djlyrithm_lilbelle.jpeg",
@@ -45,7 +85,7 @@
 			"theatrical",
 			"grindhouse"
 		],
-		"link": "https://suno.com/song/f5cda8ba-1c22-4d5f-9cf8-be3bb1492571",
+		"link": "https://suno.com/song/20c267f1-7c2e-44c8-9654-6f95ee39df84",
 		"datePublished": "2025-06-25T00:14:28.000Z"
 	}
 ]
